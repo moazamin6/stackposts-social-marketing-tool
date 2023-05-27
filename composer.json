@@ -1,0 +1,60 @@
+{
+	"name": "codeigniter4/appstarter",
+	"type": "project",
+	"description": "CodeIgniter4 starter app",
+	"homepage": "https://codeigniter.com",
+	"license": "MIT",
+	"require": {
+		"php": "^7.3||^8.0",
+		"codeigniter4/framework": "^4",
+		"statickidz/php-google-translate-free": "^1.2",
+		"janu-software/facebook-php-sdk": "^0.1.13",
+		"guzzlehttp/guzzle": "^7.5",
+		"php-http/guzzle7-adapter": "^1.0",
+		"phpmailer/phpmailer": "^6.7",
+		"google/apiclient": "2.12.1",
+		"smolblog/oauth2-twitter": "^1.0",
+		"abraham/twitteroauth": "^5.0",
+		"nojimage/twitter-text-php": "^3.2",
+		"phplicengine/bitly": "^1.0",
+		"league/csv": "9.0",
+		"yidas/csv": "^1.0",
+		"dompdf/dompdf": "^2.0"
+	},
+	"config": {
+		"platform": {
+            "php": "8.0.0"
+        },
+        "platform-check": false
+    },
+	"require-dev": {
+		"fakerphp/faker": "^1.9",
+		"mikey179/vfsstream": "^1.6",
+		"phpunit/phpunit": "^9.1"
+	},
+	"suggest": {
+		"ext-fileinfo": "Improves mime type detection for files"
+	},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app",
+			"Config\\": "app/Config"
+		},
+		"exclude-from-classmap": [
+			"**/Database/Migrations/**"
+		]
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\Support\\": "tests/_support"
+		}
+	},
+	"scripts": {
+		"test": "phpunit"
+	},
+	"support": {
+		"forum": "http://forum.codeigniter.com/",
+		"source": "https://github.com/codeigniter4/CodeIgniter4",
+		"slack": "https://codeigniterchat.slack.com"
+	}
+}

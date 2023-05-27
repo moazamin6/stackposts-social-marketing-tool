@@ -1,0 +1,17 @@
+<?php return array (
+  'Empty' => 'Empty',
+  'Group manager' => 'Group manager',
+  'Title' => 'Title',
+  'Select accounts' => 'Select accounts',
+  'Search' => 'Search',
+  'Back' => 'Back',
+  'Save' => 'Save',
+  'Are you sure to delete this items?' => 'Are you sure to delete this items?',
+  'Delete' => 'Delete',
+  'Add new' => 'Add new',
+  'Success' => 'Success',
+  'Please select an item to delete' => 'Please select an item to delete',
+  'Title is required' => 'Title is required',
+  'Please select an account' => 'Please select an account',
+  'Tools' => 'Tools',
+);

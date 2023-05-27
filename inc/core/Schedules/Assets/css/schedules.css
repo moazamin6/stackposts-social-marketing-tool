@@ -1,0 +1,97 @@
+.schedules-main .monthly-day .monthly-event-indicator span{
+	font-size: 12px;
+	text-align: left;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+.schedules-main .monthly-day.active{
+	background-color: var(--sp-primary-light);
+}
+
+.schedules-main .schedule-list .owl-carousel .owl-item .item{
+	background-size: cover;
+	background-position: center;
+}
+
+.schedules-main .schedule-list .owl-carousel .owl-item .item video{
+	width: 100%;
+	height: 100%;
+	background: var(--sp-dark);
+}
+
+.schedules-main .schedule-list .owl-carousel .owl-nav{
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    font-size: 42px;
+    color: #fff;
+    width: 100%;
+} 
+
+.schedules-main .schedule-list .owl-carousel .owl-nav .owl-prev{
+	position: absolute;
+	left: 0;
+	opacity: 0.8;
+}
+
+.schedules-main .schedule-list .owl-carousel .owl-nav .owl-next{
+	position: absolute;
+	right: 0;
+	opacity: 0.8;
+}
+
+.schedules-main .schedule-list .owl-carousel .owl-nav .owl-prev:hover,
+.schedules-main .schedule-list .owl-carousel .owl-nav .owl-next:hover{
+	background: transparent;
+	color: var(--sp-primary);
+	opacity: 1;
+}
+
+.schedules-main .schedule-list .owl-carousel .owl-dots{
+	position: absolute;
+	z-index: 100;
+	bottom: 0;
+	width: 100%;
+} 
+
+.schedules-main .schedule-list .owl-carousel .owl-dots .owl-dot span{
+	width: 10px;
+    height: 10px;
+    margin: 5px 2px;
+    background: var(--sp-white);
+    opacity: 0.8;
+}
+
+.schedules-main .schedule-list .owl-carousel .owl-dots .owl-dot.active span{
+	opacity: 1;
+    background: var(--sp-primary);
+}
+
+.schedule-calendar.wp-50{
+	width: 50%;
+}
+
+.schedule-list.wp-50{
+	width: 50%;
+}
+
+/*Sidebar mobile*/
+@media (max-width: 768px) {
+	.schedule-calendar.wp-50{
+		width: 100%;
+	}
+
+	.schedule-list.wp-50{
+		display: none;
+		width: 100%;
+	}
+
+	.schedules-main.active .schedule-calendar{
+		display: none;
+	}
+
+	.schedules-main.active .schedule-list{
+		display: block;
+	}
+}

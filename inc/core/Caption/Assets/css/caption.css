@@ -1,0 +1,22 @@
+.emojionearea, .emojionearea.form-control{
+	border: 1px solid var(--sp-gray-300)!important;
+	border-radius: 4px 4px 0 0!important;
+}
+
+.caption-option{
+	border: 1px solid var(--sp-gray-300);
+	border-radius: 0 0 4px 4px;
+	position: relative;
+	top: -1px;
+}
+
+.caption-option li{
+	border-right: 1px solid var(--sp-gray-300);
+}
+
+.popup-caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+}

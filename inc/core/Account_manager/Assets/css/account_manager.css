@@ -1,0 +1,79 @@
+.account_manager .am-widget{
+	border: 1px solid var(--sp-gray-200);
+}
+
+.account_manager .am-widget .icon{
+	width: 35px;
+}
+
+.account_manager .am-widget .text{
+}
+
+.account_manager .am-widget .remove{
+	padding-left: 7px;
+	padding-right: 7px;
+	border-left: 1px solid var(--sp-gray-200);
+}
+
+.account_manager{
+	position: relative;
+}
+
+.account_manager .am-choice-box{
+	position: relative;
+}
+
+.account_manager .am-choice-box .am-open-list-account{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	z-index: 10;
+}
+
+.account_manager .am-choice-box .am-selected-box{
+	position: relative;
+}
+
+.account_manager .am-choice-box:hover .am-selected-box,
+.account_manager .am-choice-box:hover .am-list-account{
+	box-shadow: var(--sp-box-shadow);
+}
+
+
+.account_manager .am-choice-box .am-selected-box .am-selected-list{
+
+}
+
+.account_manager .am-choice-box .am-selected-box .am-selected-list .am-selected-item{
+	position: relative;
+	z-index: 1000;
+}
+
+.account_manager .am-choice-box .am-selected-box .am-selected-list .am-selected-item:hover{
+	border: 1px solid var(--sp-gray-400)!important;
+}
+
+
+.account_manager .am-choice-box .am-selected-box .am-selected-arrow{
+	transition: all 0.5s;
+	transform: rotate(0);
+}
+
+.account_manager .am-choice-box.active .am-selected-box .am-selected-arrow{
+	transform: rotate(180deg);
+}
+
+.account_manager .am-choice-box .am-list-account{
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+	display: none;
+}
+
+.account_manager .am-choice-box .am-list-account .am-choice-item{
+	cursor: pointer;
+}
+
