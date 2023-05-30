@@ -1,9 +1,9 @@
 <?php
-$installation = true;
-if($installation){
-    header("Location: ./install/index.php");
-    exit;
-}
+//$installation = true;
+//if($installation){
+//    header("Location: ./install/index.php");
+//    exit;
+//}
 
 // Path to the front controller (this file)
 define('DEMO', FALSE);
